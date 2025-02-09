@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdhv7AP3wyRx5nyHhn4VpDGsCUxF9Jpe7jlAm1w3hXzq9niaOcipLCWfuAWHJ1zAAL-hI&usqp=CAU" alt="logo">
+            <abbr title="create by ali raza">Car Marketplace</abbr> 
+        </div>
+       
+    </header>
+
+    <!-- Search and Filters Section -->
+    <section class="search-filters">
+        <div class="filters">
+            <select id="make">
+                <option value="all">Select Make</option>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+            </select>
+            <select id="model">
+                <option value="all">Select Model</option>
+                <!-- Models dynamically populated -->
+            </select>
+        </div>
+    </section>
+
+    <!-- Car Listings -->
+    <section class="car-listings">
+        <!-- Toyota Models -->
+        <div class="car-item" data-make="toyota" data-model="corolla">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT48FxKNj8U6Qh_Q5TYQSe9DrLVlo9BGcA7og&s" alt="Toyota Corolla">
+            <div class="car-details">
+                <h2>Toyota Corolla</h2>
+                <p><strong>Price:</strong> PKR 6,169,000</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="toyota" data-model="camry">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuwrSb53UfgpeSfqOrH-Yfxt1lXwC_1SLSEA&s" alt="Toyota Camry">
+            <div class="car-details">
+                <h2>Toyota Camry</h2>
+                <p><strong>Price:</strong> PKR 29,990,000</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="toyota" data-model="prius">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJZ1ua3Nerw0z1OfxGMwYfmZgFH0N3CwIoWA&s" alt="Toyota Camry">
+            <div class="car-details">
+                <h2>Toyota prius</h2>
+                <p><strong>Price:</strong>PKR 2,200,000</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="toyota" data-model="rav4">
+            <img src="https://nextgen-images.cdn.dealersolutions.com.au/modular.multisite.dealer.solutions/wp-content/uploads/2023/11/28095534/MXAA52R-ANXXBQ-1A_RAV4_2023112217234864-1200x675.png?format=webp&width=1200" alt="Toyota Camry">
+            <div class="car-details">
+                <h2>Toyota Rav4</h2>
+                <p><strong>Price:</strong>  PKR 19,300,000</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="toyota" data-model="landcruiser">
+            <img src="https://imgd.aeplcdn.com/642x336/n/cw/ec/139739/land-cruiser-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80" alt="Toyota landcruiser">
+            <div class="car-details">
+                <h2>Toyota landcruiser</h2>
+                <p><strong>Price:</strong>  PKR 120,000,000 </p>
+            </div>
+        </div>
+    
+    
+        <!-- Honda Models -->
+        <div class="car-item" data-make="honda" data-model="civic">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGDffer4q8-lYZN-m-NvTO-QnZBfFXxZf3xw&s "alt="Honda Civic">
+            <div class="car-details">
+                <h2>Honda Civic</h2>
+                <p><strong>Price:</strong>  PKR 8,659,000</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="honda" data-model="accord">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk4V7YQ4c4Xo6gRAiGekuY7cMH8ZZNgkP_Og&s" alt="Honda Accord">
+            <div class="car-details">
+                <h2>Honda Accord</h2>
+                <p><strong>Price:</strong> PKR 22,990,000</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="honda" data-model="hrv">
+            <img src="https://www.honda-mideast.com/en/-/media/honda/new-hrv-2022/new-assets/stylish-suv/front-view.jpg" alt="Honda Hrv">
+            <div class="car-details">
+                <h2>Honda Hrv</h2>
+                <p><strong>Price:</strong>PKR 7,649,000</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="honda" data-model="city">
+            <img src="https://cache1.pakwheels.com/system/car_generation_pictures/6425/original/Honda_City_Front.jpg?1651424945" alt="Honda city">
+            <div class="car-details">
+                <h2>Honda City</h2>
+                <p><strong>Price:</strong>PKR 4,649,000</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="honda" data-model="crv">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQogMQ0qPHCUjgh9XjzTZmHsjM6sMvX36kbuw&s" alt="Honda crv">
+            <div class="car-details">
+                <h2>Honda Crv</h2>
+                <p><strong>Price:</strong>PKR 850,000 to PKR 6,750,000.</p>
+            </div>
+        </div>
+       
+        <!-- Mersades Models -->
+        <div class="car-item" data-make="mercedes" data-model="e-class">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQiU9uTrSgnoBxOPvUb5i4BkBUTBgJlLWRXX_9awceXlIQf5AoW"alt="mercedes Benz E-Class">
+            <div class="car-details">
+                <h2>Mersades Benz E-Class</h2>
+                <p><strong>Price:</strong>PKR 13,600,000 to PKR 175,000,000</p>
+            </div>
+        </div>  
+        <div class="car-item" data-make="mercedes" data-model="c-class">
+            <img src="https://imgd.aeplcdn.com/1920x1080/n/cw/ec/178535/c-class-exterior-right-front-three-quarter.jpeg?isig=0&q=80&q=80"alt="mercedes Benz E-Class">
+            <div class="car-details">
+                <h2>Mersades c-class</h2>
+                <p><strong>Price:</strong> PKR 28,800,000 to PKR 72,000,000</p>
+            </div>
+        </div>  
+        <div class="car-item" data-make="mercedes" data-model="s-class">
+            <img src="https://media.drive.com.au/obj/tx_q:80,rs:auto:640:360:1/driveau/upload/cms/uploads/p4xzvnxn9hkxo7vbfwj8"alt="mercedes Benz E-Class">
+            <div class="car-details">
+                <h2>s-class</h2>
+                <p><strong>Price:</strong> PKR 80,000,000</p>
+            </div>
+        </div>  
+        <div class="car-item" data-make="mercedes" data-model="g-class">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ520kmbetk5znrlDUQDL-7bVpR8BZcLRMPg&s"alt="mercedes Benz E-Class">
+            <div class="car-details">
+                <h2>g-class</h2>
+                <p><strong>Price:</strong> PKR 106,000,000 to PKR 162,500,000</p>
+            </div>
+        </div>  
+       
+       
+        <!-- BMW Models -->
+       
+        <div class="car-item" data-make="bmw" data-model="5series">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJRHaQdj2rga43Lee7TFEx8PxRbhdgK4JwDA&s"alt="bmw 5series">
+            <div class="car-details">
+                <h2>bmw 5series</h2>
+                <p><strong>Price:</strong> from PKR 53,000,000 to PKR 53,000,000 </p>
+            </div>
+        </div>
+        <div class="car-item" data-make="bmw" data-model="3series">
+            <img src="https://www.bmw.co.uk/content/dam/bmw/marketGB/bmw_co_uk/bmw-cars/3-series/G80_M3_Competition_M_xDrive_Saloon_Sao_Paulo_Yellow.png"alt="bmw 3series">
+            <h2>BMW 3 Series</h2>
+            <p><strong>Price:</strong> PKR 7,500,000 to PKR 21,866,700 </p>
+        </div>
+        <div class="car-item" data-make="bmw" data-model="x5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyVjygpn-caG7pr5Io-YElRJJZyznjMnbG1w&s"alt="bmw x5">
+            <h2>BMW x5</h2>
+            <p><strong>Price:</strong>  PKR 74,000,000 </p>
+        </div>
+        <div class="car-item" data-make="bmw" data-model="x3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU2M5yN4z1a86da6bsZiK6YoReAOIIAhASIg&s"alt="bmw x3">
+            <h2>BMW x3</h2>
+            <p><strong>Price:</strong>  PKR 5,000,000 to PKR 8,500,000.</p>
+        </div>
+        <div class="car-item" data-make="bmw" data-model="7series">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCWNNNveKVOyd4j-F2ADduhngJcrl345GX6A&s"alt="bmw 7series">
+            <h2>BMW 7series</h2>
+            <p><strong>Price:</strong>PKR 80,823,000</p>
+        </div>
+           <!-- audi Models -->
+       
+        <div class="car-item" data-make="audi" data-model="a4">
+            <img src="https://images.dealer.com/ddc/vehicles/2025/Audi/A4/Sedan/still/front-left/front-left-640-en_US.jpg"alt="audi a4">
+            <div class="car-details">
+                <h2>audi a4</h2>
+                <p><strong>Price:</strong> PKR 9,580,000 to PKR 35,000,000</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="audi" data-model="a6">
+            <img src="https://images.dealer.com/ddc/vehicles/2025/Audi/A6/Sedan/still/front-left/front-left-640-en_US.jpg"alt="audi a6">
+            <div class="car-details">
+                <h2>audi a6</h2>
+                <p><strong>Price:</strong> PKR 3,650,000 to PKR 53,000,000 </p>
+            </div>
+        </div>
+        <div class="car-item" data-make="audi" data-model="q7">
+            <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/192279/q7-exterior-right-front-three-quarter.jpeg?isig=0&q=80"alt="audi q7">
+            <div class="car-details">
+                <h2>audi q7</h2>
+                <p><strong>Price:</strong> PKR 8,200,000 to PKR 55,000,000.</p>
+            </div>
+        </div>
+        <div class="car-item" data-make="audi" data-model="q5">
+            <img src="https://imgd.aeplcdn.com/1920x1080/n/cw/ec/53591/q5-exterior-right-front-three-quarter-36.jpeg?isig=0&q=80&q=80"alt="audi q5">
+            <div class="car-details">
+                <h2>audi q5</h2>
+                <p><strong>Price:</strong> PKR 17,450,000 to PKR 17,450,000 </p>
+            </div>
+        </div>
+        <div class="car-item" data-make="audi" data-model="a8">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrosI1kuFQF8mtvojKG6HaqaNmyOevKGMuJg&s"alt="audi a8">
+            <div class="car-details">
+                <h2>audi a8</h2>
+                <p><strong>Price:</strong> PKR 33,000,000 to PKR 500,000,000</p>
+            </div>
+        </div>
+        <!-- Add more cars similarly -->
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

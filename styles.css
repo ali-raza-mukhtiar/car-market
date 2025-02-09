@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between image and text */
+}
+
+.logo img {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Optional: makes it round */
+}
+
+.logo abbr {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Change to a color that fits your theme */
+    text-decoration: none;
+}
+
+header {
+    background-color: #d6f7f8;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Search and Filters Section */
+.search-filters {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+}
+
+.filters select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.filters button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* باقی سب ویسا ہی رہے گا، صرف car-item کے لیے تھوڑی تبدیلی */
+.car-item {
+    display: block; /* Default: show all cars */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Car Listings */
+.car-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.car-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33.33% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.car-item img {
+    width: 80%;
+    height: 180px;
+    
+    background-color: white;
+}
+
+.car-details {
+    padding: 15px;
+}
+
+.car-details h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.car-details p {
+    margin: 5px 0;
+}
+
+.car-details button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* new */
+.car-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.car-item {
+    width: 220px; /* Adjust width as needed */
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.car-item:hover {
+    transform: scale(1.05);
+}
+
+.car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.car-details {
+    margin-top: 10px;
+}
+
+.car-details h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.car-details p {
+    font-size: 16px;
+    color: #666;
+}
